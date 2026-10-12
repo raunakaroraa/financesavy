@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
-export const SITE_NAME = 'FinSavvy';
-export const SITE_URL = 'https://financesavvy.org'; // Default base domain
+export const SITE_NAME = 'FinanceSavy.pro';
+export const SITE_URL = 'https://financesavy.pro';
 export const DEFAULT_DESCRIPTION =
   'Precision personal finance decision suite. Interactive calculators for early retirement (FIRE), accelerated debt payoff, compound interest, mortgage amortization, 50/30/20 budgeting, and emergency runways.';
 
@@ -29,15 +29,17 @@ export function constructMetadata({
     '50 30 20 budget calculator',
     'emergency fund runway',
     'wealth planning tool',
+    'financesavy',
+    'financesavy.pro',
   ];
 
   return {
     title: fullTitle,
     description,
     keywords: [...defaultKeywords, ...keywords],
-    authors: [{ name: 'FinSavvy Financial Engineering Team' }],
-    creator: 'FinSavvy',
-    publisher: 'FinSavvy',
+    authors: [{ name: 'FinanceSavy.pro Financial Engineering Team' }],
+    creator: 'FinanceSavy.pro',
+    publisher: 'FinanceSavy.pro',
     formatDetection: {
       email: false,
       address: false,
@@ -59,7 +61,7 @@ export function constructMetadata({
       card: 'summary_large_image',
       title: fullTitle,
       description,
-      creator: '@financesavvy',
+      creator: '@financesavypro',
     },
     robots: {
       index: true,
@@ -102,7 +104,7 @@ export function generateAppJsonLd({
     },
     author: {
       '@type': 'Organization',
-      name: 'FinSavvy',
+      name: 'FinanceSavy.pro',
       url: SITE_URL,
     },
   };

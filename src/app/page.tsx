@@ -19,7 +19,7 @@ import {
 import AdBanner from '@/components/AdBanner';
 
 export const metadata = {
-  title: 'FinSavvy | Precision Wealth Planning & Financial Decision Engines',
+  title: 'FinanceSavy.pro | Precision Wealth Planning & Financial Decision Engines',
   description:
     'Free personal finance calculators for early retirement (FIRE), debt elimination (snowball vs avalanche), compound interest, mortgage amortization, 50/30/20 budgeting, and emergency runways.',
 };
@@ -31,10 +31,10 @@ export default function HomePage() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'What makes FinSavvy calculators different from basic online calculators?',
+        name: 'What makes FinanceSavy.pro calculators different from basic online calculators?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'FinSavvy calculators are client-side mathematical engines built on audited CFPB and Federal Reserve compounding and amortization formulas. They account for inflation adjustments, real purchasing power, tax and insurance escrows, and comparative debt strategies without collecting personal data or requiring accounts.',
+          text: 'FinanceSavy.pro calculators are client-side mathematical engines built on audited CFPB and Federal Reserve compounding and amortization formulas. They account for inflation adjustments, real purchasing power, tax and insurance escrows, and comparative debt strategies without collecting personal data or requiring accounts.',
         },
       },
       {
@@ -42,7 +42,7 @@ export default function HomePage() {
         name: 'Is my personal financial information stored or sent to a server?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'No. FinSavvy performs 100% of calculations directly in your browser using client-side JavaScript. No bank accounts, names, income figures, or debt values are stored or transmitted to any server.',
+          text: 'No. FinanceSavy.pro performs 100% of calculations directly in your browser using client-side JavaScript. No bank accounts, names, income figures, or debt values are stored or transmitted to any server.',
         },
       },
       {
@@ -479,7 +479,7 @@ export default function HomePage() {
             </h2>
 
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-              Most online financial advice is driven by affiliate commissions: credit card signups, high-interest personal loans, or expensive wealth management fees. FinSavvy was founded on a contrary principle: that everyday individuals make soundest choices when given direct, uncorrupted access to mathematical truth.
+              Most online financial advice is driven by affiliate commissions: credit card signups, high-interest personal loans, or expensive wealth management fees. FinanceSavy.pro was founded on a contrary principle: that everyday individuals make soundest choices when given direct, uncorrupted access to mathematical truth.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 text-xs">
@@ -519,12 +519,12 @@ export default function HomePage() {
         <div className="space-y-4">
           {[
             {
-              q: 'What makes FinSavvy calculators different from basic online calculators?',
-              a: 'FinSavvy calculators are client-side mathematical engines built on audited CFPB and Federal Reserve compounding and amortization formulas. They account for inflation adjustments, real purchasing power, tax and insurance escrows, and comparative debt strategies without collecting personal data or requiring accounts.',
+              q: 'What makes FinanceSavy.pro calculators different from basic online calculators?',
+              a: 'FinanceSavy.pro calculators are client-side mathematical engines built on audited CFPB and Federal Reserve compounding and amortization formulas. They account for inflation adjustments, real purchasing power, tax and insurance escrows, and comparative debt strategies without collecting personal data or requiring accounts.',
             },
             {
               q: 'Is my personal financial information stored or sent to a server?',
-              a: 'No. FinSavvy performs 100% of calculations directly in your browser using client-side JavaScript. No bank accounts, names, income figures, or debt values are stored or transmitted to any server.',
+              a: 'No. FinanceSavy.pro performs 100% of calculations directly in your browser using client-side JavaScript. No bank accounts, names, income figures, or debt values are stored or transmitted to any server.',
             },
             {
               q: 'How does the debt avalanche method save more money than the debt snowball?',

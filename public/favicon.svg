@@ -1,0 +1,15 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#brandGrad)" stroke="#047857" stroke-width="1.5"/>
+  <path d="M13 14H35" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M13 24H27" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M13 14V34" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M24 34L35 23M35 23H28M35 23V30" stroke="#34d399" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="35" cy="14" r="2.5" fill="#fbbf24"/>
+  <defs>
+    <linearGradient id="brandGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#047857"/>
+      <stop offset="1" stop-color="#064e3b"/>
+    </linearGradient>
+  </defs>
+</svg>
+

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://financesavvy.org/sitemap.xml',
+    sitemap: 'https://financesavy.pro/sitemap.xml',
   };
 }

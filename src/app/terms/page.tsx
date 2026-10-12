@@ -4,9 +4,9 @@ import AdBanner from '@/components/AdBanner';
 import { FileText } from 'lucide-react';
 
 export const metadata = {
-  title: 'Terms of Service | FinSavvy',
+  title: 'Terms of Service | FinanceSavy.pro',
   description:
-    'FinSavvy Terms of Service. User agreement, intellectual property rights, limitation of liability, and permissible use of financial calculators.',
+    'FinanceSavy.pro Terms of Service. User agreement, intellectual property rights, limitation of liability, and permissible use of financial calculators.',
 };
 
 export default function TermsPage() {
@@ -23,7 +23,7 @@ export default function TermsPage() {
           Terms of Service
         </h1>
         <p className="text-xs sm:text-sm text-slate-500">
-          Last Updated: January 1, 2026 &bull; Governing use of financesavvy.org
+          Last Updated: January 1, 2026 &bull; Governing use of financesavy.pro
         </p>
       </div>
 
@@ -32,28 +32,28 @@ export default function TermsPage() {
         <section className="space-y-2">
           <h2 className="text-base font-bold text-slate-900">1. Acceptance of Terms</h2>
           <p>
-            By accessing and utilizing FinSavvy (&ldquo;the Website&rdquo;, &ldquo;financesavvy.org&rdquo;), you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service. If you disagree with any portion of these terms, you must discontinue use of the Website immediately.
+            By accessing and utilizing FinanceSavy.pro (&ldquo;the Website&rdquo;, &ldquo;financesavy.pro&rdquo;), you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service. If you disagree with any portion of these terms, you must discontinue use of the Website immediately.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-base font-bold text-slate-900">2. Permissible Use & Non-Commercial License</h2>
           <p>
-            FinSavvy grants you a personal, non-exclusive, non-transferable revocable license to access our calculators, simulation tools, charts, and educational articles for personal financial planning and educational modeling. You agree not to scrape, reverse-engineer, redistribute, or mirror our software without explicit written permission.
+            FinanceSavy.pro grants you a personal, non-exclusive, non-transferable revocable license to access our calculators, simulation tools, charts, and educational articles for personal financial planning and educational modeling. You agree not to scrape, reverse-engineer, redistribute, or mirror our software without explicit written permission.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-base font-bold text-slate-900">3. Disclaimer of Warranties</h2>
           <p>
-            The tools and services on this website are provided strictly on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis. FinSavvy makes no representations or warranties of any kind, express or implied, regarding the continuous operation, computational precision, or suitability of our calculators for your specific personal financial decisions. Market returns, inflation figures, and tax rates are inherently volatile and uncertain.
+            The tools and services on this website are provided strictly on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis. FinanceSavy.pro makes no representations or warranties of any kind, express or implied, regarding the continuous operation, computational precision, or suitability of our calculators for your specific personal financial decisions. Market returns, inflation figures, and tax rates are inherently volatile and uncertain.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-base font-bold text-slate-900">4. Limitation of Liability</h2>
           <p>
-            In no event shall FinSavvy, its operators, creators, contributors, or affiliates be liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use this site, including but not limited to investment losses, tax penalties, mortgage refinancing costs, or debt payoff decisions.
+            In no event shall FinanceSavy.pro, its operators, creators, contributors, or affiliates be liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use this site, including but not limited to investment losses, tax penalties, mortgage refinancing costs, or debt payoff decisions.
           </p>
         </section>
 

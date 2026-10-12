@@ -11,9 +11,9 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Mathematical Methodology & Formula Verification | FinSavvy',
+  title: 'Mathematical Methodology & Formula Verification | FinanceSavy.pro',
   description:
-    'Full transparency into FinSavvy algorithms, CFPB and Federal Reserve formulas for compound interest, amortization, safe withdrawal rates, and debt optimization.',
+    'Full transparency into FinanceSavy.pro algorithms, CFPB and Federal Reserve formulas for compound interest, amortization, safe withdrawal rates, and debt optimization.',
 };
 
 export default function MethodologyPage() {
@@ -30,7 +30,7 @@ export default function MethodologyPage() {
           Mathematical Methodology & Formula Verification
         </h1>
         <p className="text-sm sm:text-base text-slate-600 max-w-3xl leading-relaxed">
-          FinSavvy operates on a principle of absolute algorithmic transparency. Below are the exact equations, mathematical assumptions, and regulatory standards powering all calculators.
+          FinanceSavy.pro operates on a principle of absolute algorithmic transparency. Below are the exact equations, mathematical assumptions, and regulatory standards powering all calculators.
         </p>
       </div>
 
@@ -108,7 +108,7 @@ export default function MethodologyPage() {
             <h2>4. Discrete Month-by-Month Debt Simulation</h2>
           </div>
           <p>
-            Rather than relying on simplified approximations, FinSavvy runs a discrete month-by-month financial state machine across all debt accounts:
+            Rather than relying on simplified approximations, FinanceSavy.pro runs a discrete month-by-month financial state machine across all debt accounts:
           </p>
           <ol className="list-decimal pl-5 space-y-1.5 text-xs sm:text-sm text-slate-600">
             <li>Calculates exact monthly accrued interest on each account using <code className="bg-slate-100 px-1 py-0.5 rounded font-mono">Balance × (APR ÷ 12)</code>.</li>
@@ -124,3 +124,4 @@ export default function MethodologyPage() {
     </div>
   );
 }
+

@@ -17,13 +17,13 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://financesavvy.org',
+      item: 'https://financesavy.pro',
     },
     ...items.map((item, index) => ({
       '@type': 'ListItem',
       position: index + 2,
       name: item.name,
-      ...(item.href ? { item: `https://financesavvy.org${item.href}` } : {}),
+      ...(item.href ? { item: `https://financesavy.pro${item.href}` } : {}),
     })),
   ];
 

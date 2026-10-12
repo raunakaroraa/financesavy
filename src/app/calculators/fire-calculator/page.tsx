@@ -460,7 +460,7 @@ export default function FireCalculatorPage() {
                 How does inflation affect my FIRE target over decades?
               </strong>
               <p className="text-slate-600 leading-relaxed">
-                FinSavvy utilizes real (inflation-adjusted) return rates. If the market returns 9% and inflation is 2.5%, the calculation compounds at 6.34% real purchasing power, meaning your projected target represents today&apos;s purchasing value.
+                FinanceSavy.pro utilizes real (inflation-adjusted) return rates. If the market returns 9% and inflation is 2.5%, the calculation compounds at 6.34% real purchasing power, meaning your projected target represents today&apos;s purchasing value.
               </p>
             </div>
           </div>
@@ -474,3 +474,4 @@ export default function FireCalculatorPage() {
     </div>
   );
 }
+

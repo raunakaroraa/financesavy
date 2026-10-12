@@ -35,7 +35,7 @@ export default function ContactPage() {
           <span>Support & Inquiries</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          Contact the FinSavvy Team
+          Contact the FinanceSavy.pro Team
         </h1>
         <p className="text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
           Have an inquiry, mathematical formula suggestion, or feedback on our financial engines? We typically respond within 24 to 48 business hours.
@@ -147,8 +147,8 @@ export default function ContactPage() {
               <Mail className="w-4 h-4 text-emerald-700 shrink-0 mt-0.5" />
               <div>
                 <strong className="block text-slate-800">Direct Email</strong>
-                <a href="mailto:support@financesavvy.org" className="text-slate-600 hover:text-emerald-700">
-                  contact@financesavvy.org
+                <a href="mailto:support@financesavy.pro" className="text-slate-600 hover:text-emerald-700">
+                  contact@financesavy.pro
                 </a>
               </div>
             </div>
@@ -166,7 +166,7 @@ export default function ContactPage() {
               <div>
                 <strong className="block text-slate-800">Correspondence Address</strong>
                 <span className="text-slate-600">
-                  FinSavvy Media Labs<br />
+                  FinanceSavy.pro Digital Labs<br />
                   100 Financial Way, Suite 400<br />
                   Wilmington, DE 19801
                 </span>

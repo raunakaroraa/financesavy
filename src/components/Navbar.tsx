@@ -15,6 +15,7 @@ import {
   X, 
   FileText
 } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 const TOOLS = [
   {
@@ -73,18 +74,8 @@ export default function Navbar() {
           
           {/* Logo & Identity */}
           <div className="flex items-center space-x-8">
-            <Link href="/" className="flex items-center space-x-2.5 group">
-              <span className="w-8 h-8 rounded-lg bg-emerald-700 text-white font-mono font-bold text-base flex items-center justify-center shadow-sm group-hover:bg-emerald-800 transition-colors">
-                FS
-              </span>
-              <div className="flex flex-col">
-                <span className="font-bold text-slate-900 tracking-tight text-lg leading-none">
-                  Fin<span className="text-emerald-700">Savvy</span>
-                </span>
-                <span className="text-[10px] tracking-widest uppercase font-semibold text-slate-500 mt-0.5">
-                  Wealth Engine
-                </span>
-              </div>
+            <Link href="/" className="group">
+              <Logo size="sm" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -249,7 +240,7 @@ export default function Navbar() {
               onClick={() => setMobileOpen(false)}
               className="px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-md"
             >
-              About FinSavvy
+              About FinanceSavy.pro
             </Link>
             <Link
               href="/contact"
@@ -264,3 +255,4 @@ export default function Navbar() {
     </header>
   );
 }
+

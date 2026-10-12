@@ -13,15 +13,15 @@ import {
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About Us & Editorial Standards | FinSavvy',
+  title: 'About Us & Editorial Standards | FinanceSavy.pro',
   description:
-    'Learn about FinSavvy, our mission to democratize financial calculation tools, our editorial standards, and our strict client-side data privacy policy.',
+    'Learn about FinanceSavy.pro, our mission to democratize financial calculation tools, our editorial standards, and our strict client-side data privacy policy.',
 };
 
 export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
-      <Breadcrumb items={[{ name: 'About FinSavvy' }]} />
+      <Breadcrumb items={[{ name: 'About FinanceSavy.pro' }]} />
 
       <div className="border-b border-slate-200 pb-6 space-y-2">
         <div className="inline-flex items-center space-x-2 text-xs font-semibold px-2.5 py-1 rounded bg-emerald-50 text-emerald-800 border border-emerald-200">
@@ -29,7 +29,7 @@ export default function AboutPage() {
           <span>Our Mission & Principles</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          About FinSavvy
+          About FinanceSavy.pro
         </h1>
         <p className="text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
           Empowering everyday individuals to make high-stakes financial decisions using uncompromised mathematical modeling.
@@ -41,13 +41,13 @@ export default function AboutPage() {
         {/* Origin Story */}
         <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 space-y-4">
           <h2 className="text-xl font-bold text-slate-900">
-            Why FinSavvy Was Built
+            Why FinanceSavy.pro Was Built
           </h2>
           <p>
             The internet is flooded with financial content, yet finding a clear, unbiased calculator is remarkably difficult. Most commercial financial calculators are heavily incentivized lead-generation funnels: they gate results behind required email captures, bombard visitors with predatory loan advertisements, or conceal the underlying math to push proprietary products.
           </p>
           <p>
-            FinSavvy was conceived as the antidote: an open, mathematically rigorous utility suite that offers immediate answers without paywalls, accounts, or dark patterns.
+            FinanceSavy.pro was conceived as the antidote: an open, mathematically rigorous utility suite that offers immediate answers without paywalls, accounts, or dark patterns.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function AboutPage() {
             Editorial Independence & Monetization Disclosure
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            FinSavvy supports its ongoing development and hosting infrastructure primarily through contextual advertisements (such as Google AdSense). Our mathematical algorithms, recommendations, and simulation outcomes are 100% independent and are never altered, skewed, or influenced by third-party advertisers or commercial affiliations.
+            FinanceSavy.pro supports its ongoing development and hosting infrastructure primarily through contextual advertisements (such as Google AdSense). Our mathematical algorithms, recommendations, and simulation outcomes are 100% independent and are never altered, skewed, or influenced by third-party advertisers or commercial affiliations.
           </p>
           <div className="pt-2">
             <Link

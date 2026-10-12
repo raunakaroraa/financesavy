@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Shield, Lock, Award, FileSpreadsheet } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 export default function Footer() {
   const currentYear = 2026;
@@ -50,14 +51,7 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center space-x-2.5">
-              <span className="w-7 h-7 rounded-md bg-emerald-600 text-white font-mono font-bold text-sm flex items-center justify-center">
-                FS
-              </span>
-              <span className="font-bold text-white tracking-tight text-lg">
-                Fin<span className="text-emerald-400">Savvy</span>
-              </span>
-            </div>
+            <Logo variant="dark" size="sm" />
             <p className="text-xs leading-relaxed text-slate-400 max-w-sm">
               An independent financial intelligence platform dedicated to transparent personal wealth mathematics, debt acceleration modeling, and early retirement projections.
             </p>
@@ -173,10 +167,10 @@ export default function Footer() {
         {/* Mandatory Financial Disclaimer Notice for AdSense & YMYL */}
         <div className="mt-12 pt-8 border-t border-slate-900 text-[11px] leading-relaxed text-slate-400 space-y-3">
           <p>
-            <strong className="text-slate-300">Financial Disclaimer:</strong> FinSavvy (including all associated calculators, charts, and educational articles) is strictly intended for general illustrative and educational modeling purposes. We are not registered financial advisors, certified financial planners (CFP), certified public accountants (CPA), mortgage brokers, or fiduciary advisors. None of the calculations provided should be construed as legal, tax, or investment advice. Always consult a qualified professional before making major financial commitments.
+            <strong className="text-slate-300">Financial Disclaimer:</strong> FinanceSavy.pro (including all associated calculators, charts, and educational articles) is strictly intended for general illustrative and educational modeling purposes. We are not registered financial advisors, certified financial planners (CFP), certified public accountants (CPA), mortgage brokers, or fiduciary advisors. None of the calculations provided should be construed as legal, tax, or investment advice. Always consult a qualified professional before making major financial commitments.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-between text-slate-400 pt-4">
-            <p>&copy; {currentYear} FinSavvy. All mathematical rights reserved.</p>
+            <p>&copy; {currentYear} FinanceSavy.pro. All mathematical rights reserved.</p>
             <p className="mt-2 sm:mt-0">Designed for personal financial clarity and sovereign wealth building.</p>
           </div>
         </div>

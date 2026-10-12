@@ -4,9 +4,9 @@ import AdBanner from '@/components/AdBanner';
 import { AlertTriangle, ShieldAlert } from 'lucide-react';
 
 export const metadata = {
-  title: 'Financial Disclaimer (YMYL) | FinSavvy',
+  title: 'Financial Disclaimer (YMYL) | FinanceSavy.pro',
   description:
-    'FinSavvy Financial Disclaimer. Important notice regarding educational calculations, non-fiduciary status, and professional financial consultation.',
+    'FinanceSavy.pro Financial Disclaimer. Important notice regarding educational calculations, non-fiduciary status, and professional financial consultation.',
 };
 
 export default function DisclaimerPage() {
@@ -32,14 +32,14 @@ export default function DisclaimerPage() {
         <div className="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-xl space-y-2 text-amber-950">
           <strong className="block text-sm font-bold">Important Notice (Not Financial Advice)</strong>
           <p>
-            The content, formulas, simulation engines, charts, and figures provided by FinSavvy (financesavvy.org) are designed and published strictly for general educational and illustrative modeling purposes. Nothing on this website constitutes legal, accounting, tax, investment, mortgage, or personalized financial advice.
+            The content, formulas, simulation engines, charts, and figures provided by FinanceSavy.pro (financesavy.pro) are designed and published strictly for general educational and illustrative modeling purposes. Nothing on this website constitutes legal, accounting, tax, investment, mortgage, or personalized financial advice.
           </p>
         </div>
 
         <section className="space-y-2">
           <h2 className="text-base font-bold text-slate-900">1. No Fiduciary or Advisory Relationship</h2>
           <p>
-            FinSavvy is an independent technology platform. We are not registered as an investment advisor with the U.S. Securities and Exchange Commission (SEC), FINRA, or state securities regulators. We do not operate as certified financial planners (CFP), registered mortgage loan originators, or licensed public accountants (CPA). Your use of this website does not create any fiduciary, advisory, or contractual relationship between you and FinSavvy.
+            FinanceSavy.pro is an independent technology platform. We are not registered as an investment advisor with the U.S. Securities and Exchange Commission (SEC), FINRA, or state securities regulators. We do not operate as certified financial planners (CFP), registered mortgage loan originators, or licensed public accountants (CPA). Your use of this website does not create any fiduciary, advisory, or contractual relationship between you and FinanceSavy.pro.
           </p>
         </section>
 

@@ -1,5 +1,5 @@
 /**
- * FinSavvy Core Financial Mathematics Engine
+ * FinanceSavy.pro Core Financial Mathematics Engine
  * Rigorous, auditable formulas based on CFPB and Federal Reserve financial standards.
  */
 

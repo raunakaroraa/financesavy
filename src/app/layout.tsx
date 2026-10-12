@@ -15,10 +15,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'FinSavvy | Precision Financial Decision Suite & Wealth Engine',
+  title: 'FinanceSavy.pro | Precision Financial Decision Suite & Wealth Engine',
   description:
     'Free interactive financial engines for early retirement (FIRE), accelerated debt snowball & avalanche elimination, compound interest, mortgage amortization, and cashflow budgeting.',
-  metadataBase: new URL('https://financesavvy.org'),
+  metadataBase: new URL('https://financesavy.pro'),
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   verification: {
     google: 'google-site-verification-placeholder',
   },
@@ -35,9 +40,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* Preconnect to Google Fonts & Ad networks if needed */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
         <Navbar />

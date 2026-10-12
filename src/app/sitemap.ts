@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://financesavvy.org';
+  const baseUrl = 'https://financesavy.pro';
   const lastModified = new Date('2026-01-01');
 
   const routes = [
