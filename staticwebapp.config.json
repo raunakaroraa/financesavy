@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/api/*", "/_next/*", "/static/*", "*.{css,js,json,png,jpg,jpeg,svg,ico,txt,xml}"]
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "mimeTypes": {
+    ".svg": "image/svg+xml"
+  }
+}
