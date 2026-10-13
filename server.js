@@ -1,7 +1,7 @@
 const { createServer } = require('http');
 const next = require('next');
 
-const dev = process.env.NODE_ENV !== 'production';
+const dev = false;
 const hostname = '0.0.0.0';
 const port = parseInt(process.env.PORT || process.env.WEBSITES_PORT || '8080', 10);
 const app = next({ dev, hostname, port });
