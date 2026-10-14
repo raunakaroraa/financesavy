@@ -8,9 +8,6 @@
     "start": "node server.js",
     "lint": "eslint"
   },
-  "scripts": {
-  "start": "next start -p ${PORT:-8080}"
-},
   "dependencies": {
     "lucide-react": "^1.55.0",
     "next": "16.4.0",
